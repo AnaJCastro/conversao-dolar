@@ -13,14 +13,14 @@ int main()
     switch (tipo)
     {
     case 1:
-         printf("insira o valor em dolar");
+         printf("insira o valor em dolar:");
         scanf("%f",&real);
         conversao = dolar*real;
         printf("a sua conversao sera %.2f",conversao);
         break;
         
     case 2:
-         printf("insira o valor em real");
+         printf("insira o valor em real:");
          scanf("%f",&dolar);
         conversao = real*dolar;
         printf("a sua conversao sera %.2f",conversao);
