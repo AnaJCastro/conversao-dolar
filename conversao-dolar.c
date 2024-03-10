@@ -6,7 +6,7 @@ int main()
     dolar = 4.98; //valor atual do dolar (03/2024)
     real = 0.20; //valor atual do real (03/2024)
 
-    printf("insira qual conversao voce deseja: insira 1 para real-dolar ou insira 2 para dolar-real");
+    printf("insira qual conversao voce deseja: insira 1 para dolar-real ou insira 2 para real-dolar");
     int tipo;
     tipo = 0;
     scanf("%i",&tipo);
